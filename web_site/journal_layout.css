@@ -1,0 +1,67 @@
+body{
+	background-image: url(images/bg2.jpg);
+}
+
+.main{
+	border: 10px white solid;
+	background: white;
+	margin: 0 10% 0 10%;
+}
+
+.title-bl{
+	background: #A8F0F0;
+	text-align: right;
+}
+
+.title-bl h2{
+	font-size: 14pt;
+}
+
+.first-sec, .second-sec{
+	border: 4px #C2E9E9 solid;
+	background: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+
+}
+
+.main img{
+	float: right;
+}
+
+.date-bl{
+	border-bottom: 2px #009097 dashed;
+}
+
+.float-sec{
+	border: 4px #009097 solid;
+	background: #A8F0F0;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 150px;
+	padding: 5px;
+	float: left;
+}
+
+.float-sec li{
+	color: #005060; 
+}
+
+.float-sec h1{
+	font-size: 24pt;
+}
+
+main{
+	overflow: hidden;
+}
+
+*:hover{ 
+    background-color: yellow;
+}
+
+/*.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
